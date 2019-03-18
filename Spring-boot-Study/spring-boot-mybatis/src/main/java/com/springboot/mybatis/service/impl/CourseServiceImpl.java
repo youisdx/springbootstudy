@@ -29,5 +29,16 @@ public class CourseServiceImpl implements CourseService {
          courseMapper.delete(courseId);
     }
 
+    @Override
+    public Course insert(Course course) {
+        courseMapper.insert(course);
+        return course;
+    }
+
+    @Override
+    public void update(Course course) {
+        courseMapper.update(course);
+    }
+
 
 }
