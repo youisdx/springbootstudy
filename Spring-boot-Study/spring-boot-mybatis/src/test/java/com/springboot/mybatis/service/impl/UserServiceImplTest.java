@@ -26,7 +26,7 @@ public class UserServiceImplTest {
 
     @Test
     public void getOne() {
-        User user= userService.getOne(1);
+        User user= userService.getOne(2);
         System.out.println(user);
     }
 
@@ -44,8 +44,8 @@ public class UserServiceImplTest {
     @Test
     public void update() {
         User user =userService.getOne(3L);
-        user.setPassword("666");
-        user.setAvatar("a.jpg");
+        user.setPassword("458");
+        user.setAvatar("d.jpg");
         userService.update(user);
     }
 
