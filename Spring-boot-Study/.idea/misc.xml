@@ -5,6 +5,9 @@
       <list>
         <option value="$PROJECT_DIR$/quickstrat/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/upload/pom.xml" />
+        <option value="$PROJECT_DIR$/test/pom.xml" />
+        <option value="$PROJECT_DIR$/../jianyue-api/pom.xml" />
       </list>
     </option>
   </component>

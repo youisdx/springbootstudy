@@ -6,13 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="jianyue-api" />
         <module name="quickstrat" />
         <module name="spring-boot-mybatis" />
+        <module name="test" />
+        <module name="upload" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="jianyue-api" target="1.8" />
+      <module name="jianyue-api (1)" target="1.8" />
       <module name="quickstrat" target="1.8" />
       <module name="spring-boot-mybatis" target="1.8" />
+      <module name="test" target="1.8" />
+      <module name="upload" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
