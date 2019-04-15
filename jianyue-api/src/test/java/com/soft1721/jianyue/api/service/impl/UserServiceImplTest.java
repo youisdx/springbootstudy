@@ -36,4 +36,36 @@ public class UserServiceImplTest {
         int status = userService.signIn(loginUser);
         assertEquals(StatusConst.SUCCESS, status);
     }
+
+    @Test
+    public void getUserById() {
+        User user = userService.getUserById(1);
+        System.out.println(user);
+    }
+
+    @Test
+    public void updateUser() {
+        User user=userService.getUserById(1);
+        user.setAvatar("1.jpeg");
+        userService.update(user);
+
+    }
+    @Test
+    public void updateUser1(){
+        User user=userService.getUserById(1);
+        user.setNickname("Jay3");
+        userService.updateUser1(user);
+    }
+
+    //注册插入测试
+    @Test
+    public void signUp() {
+        UserDTO userDTO = new UserDTO();
+        userDTO.setMobile("18136653635");
+        userDTO.setPassword("111");
+        int n = userService.signUp(userDTO);
+        assertEquals(0, n);
+    }
+
+
 }
