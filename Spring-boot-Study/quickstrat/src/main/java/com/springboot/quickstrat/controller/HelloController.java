@@ -6,13 +6,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * SpringBoot的第一个RESful的请求
- *
  */
 @RestController
 public class HelloController {
 
-    @RequestMapping(value="/hello" ,method= RequestMethod.GET)
-    public String getHello(){
+    @RequestMapping(value = "/hello", method = RequestMethod.GET)
+    public String getHello() {
         return "Hello,Spring Boot~~";
     }
 }

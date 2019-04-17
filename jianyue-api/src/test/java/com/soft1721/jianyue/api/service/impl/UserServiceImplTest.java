@@ -45,14 +45,15 @@ public class UserServiceImplTest {
 
     @Test
     public void updateUser() {
-        User user=userService.getUserById(1);
+        User user = userService.getUserById(1);
         user.setAvatar("1.jpeg");
         userService.update(user);
 
     }
+
     @Test
-    public void updateUser1(){
-        User user=userService.getUserById(1);
+    public void updateUser1() {
+        User user = userService.getUserById(1);
         user.setNickname("Jay3");
         userService.updateUser1(user);
     }

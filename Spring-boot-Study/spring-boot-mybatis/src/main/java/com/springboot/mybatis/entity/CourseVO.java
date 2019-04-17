@@ -1,4 +1,5 @@
 package com.springboot.mybatis.entity;
+
 import lombok.Data;
 
 @Data

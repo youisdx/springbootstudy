@@ -33,6 +33,7 @@ public class StringUtil {
     public static String getUUIDString() {
         return UUID.randomUUID().toString();
     }
+
     public static String getVerifyCode() {
         Random random = new Random();
         StringBuilder stringBuilder = new StringBuilder();

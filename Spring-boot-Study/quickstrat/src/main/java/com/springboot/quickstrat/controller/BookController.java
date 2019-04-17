@@ -13,8 +13,9 @@ import java.util.List;
 public class BookController {
     @Resource
     private BookDAO bookDAO;
-    @RequestMapping(value="/books" ,method= RequestMethod.GET)
-    public List<Book> getBooks(){
+
+    @RequestMapping(value = "/books", method = RequestMethod.GET)
+    public List<Book> getBooks() {
         return bookDAO.getBooks();
     }
 }

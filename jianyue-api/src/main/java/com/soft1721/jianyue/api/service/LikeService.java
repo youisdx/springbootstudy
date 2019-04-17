@@ -5,6 +5,7 @@ import com.soft1721.jianyue.api.entity.vo.LikeVO;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+
 @Service
 public interface LikeService {
     Like getLike(int fromlikeUId, int tolikeUId);

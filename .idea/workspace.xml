@@ -1,0 +1,1170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0417c848-f9f7-4814-b121-1c977a9e022e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_core_4_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_33_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_33_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_33_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_33_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_33_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_33_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstrat/src/main/java/com/springboot/quickstrat/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstrat/src/main/java/com/springboot/quickstrat/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstrat/src/main/java/com/springboot/quickstrat/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstrat/src/main/java/com/springboot/quickstrat/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstrat/src/main/java/com/springboot/quickstrat/dao/BookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstrat/src/main/java/com/springboot/quickstrat/dao/BookDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/controller/UploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/entity/CourseVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/entity/CourseVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/mapper/CourseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/mapper/CourseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/service/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/util/RandomUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/util/RandomUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/test/java/com/springboot/mybatis/service/impl/CourseServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/test/java/com/springboot/mybatis/service/impl/CourseServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/test/java/com/springboot/mybatis/service/impl/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/test/java/com/springboot/mybatis/service/impl/UserServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/src/main/java/com/springboot/upload/controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/upload/src/main/java/com/springboot/upload/controller/UploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/target/surefire-reports/TEST-com.springboot.upload.UploadApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/upload/target/surefire-reports/TEST-com.springboot.upload.UploadApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/FollowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/FollowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/ImgController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/ImgController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/LikeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/LikeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/vo/CommentVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/vo/CommentVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/vo/FollowVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/vo/FollowVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/vo/LikeVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/vo/LikeVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/ArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/ArticleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/CommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/CommentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/LikeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/LikeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/FollowServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/FollowServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/LikeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/LikeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/task/MailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/task/MailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/task/MailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/task/MailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/task/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/task/TaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/util/MsgConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/util/MsgConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/util/StatusConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/util/StatusConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/util/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/util/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/test/java/com/soft1721/jianyue/api/service/impl/ArticleServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/test/java/com/soft1721/jianyue/api/service/impl/ArticleServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/test/java/com/soft1721/jianyue/api/service/impl/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/test/java/com/soft1721/jianyue/api/service/impl/UserServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/target/classes/application.properties" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/quickstrat/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/upload/target/" />
+    <ignored path="$PROJECT_DIR$/test/target/" />
+    <ignored path="$PROJECT_DIR$/../jianyue-api/target/" />
+    <ignored path="$PROJECT_DIR$/../jianyue-api1/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1006060218">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="19" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.31" value="4" />
+          <entry key="project.open.time.32" value="2" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.38" value="2" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.95" value="1" />
+          <entry key="project.opened" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="2" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="334" />
+          <entry key="properties" value="12" />
+          <entry key="xml" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="2" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="334" />
+          <entry key="Properties" value="12" />
+          <entry key="XML" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="8" />
+          <entry key="html" value="226" />
+          <entry key="java" value="8915" />
+          <entry key="properties" value="301" />
+          <entry key="txt" value="12" />
+          <entry key="xml" value="361" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="226" />
+          <entry key="JAVA" value="8915" />
+          <entry key="PLAIN_TEXT" value="20" />
+          <entry key="Properties" value="301" />
+          <entry key="XML" value="361" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../jianyue-api/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2352">
+              <caret line="84" column="21" selection-start-line="81" selection-start-column="8" selection-end-line="84" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="784">
+              <caret line="28" selection-start-line="28" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/task/MailService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="2" selection-start-line="2" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/task/MailServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/task/TaskService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/JianyueApiApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="FxmlFile" />
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>E:\SpringbootStudy\jianyue-api\src\main\java\com\soft1721\jianyue\api\controller</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/util/StringUtil.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/UserService.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/util/StatusConst.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/RedisService.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/util/SMSTest.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/test/java/com/soft1721/jianyue/api/service/impl/UserServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/util/SMSUtil.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/vo/ArticleVO.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/CommentMapper.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/ArticleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/test/java/com/soft1721/jianyue/api/service/impl/ArticleServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/Img.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/vo/CommentVO.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/Follow.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/vo/FollowVO.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/FollowMapper.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/CommentMapper.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/CommentService.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/CommentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/CommentController.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/Comment.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/util/MsgConst.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/FollowService.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/FollowServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/Article.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/ImgMapper.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/ImgService.java" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/service/impl/CourseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/ImgServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/ImgController.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/Like.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/vo/LikeVO.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/LikeMapper.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/LikeService.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/LikeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/LikeController.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/ArticleMapper.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/ArticleService.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/ArticleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/ArticleController.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/FollowController.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/pom.xml" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/task/Mailservice.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/JianyueApiApplication.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/task/MailServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/task/TaskService.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\maven.jar" />
+        <option name="mavenHome" value="E:/Lanmoyun/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="E:\Lanmoyun\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="quickstrat" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="upload" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="upload" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="60" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Spring-boot-Study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringbootStudy" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555314899722" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jianyue-api" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.soft1721.jianyue.api.service.impl" />
+      <recent name="com.springboot.mybatis.service.impl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.springboot.mybatis.controller" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.soft1721.jianyue.api.service.impl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.soft1721.jianyue.api.service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.JianyueApiApplication (1)">
+    <configuration name="SMSUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1721.jianyue.api.util.SMSUtil" />
+      <module name="jianyue-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1721.jianyue.api.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleServiceImplTest.getArticleById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jianyue-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1721.jianyue.api.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soft1721.jianyue.api.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1721.jianyue.api.service.impl.ArticleServiceImplTest" />
+      <option name="METHOD_NAME" value="getArticleById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleServiceImplTest.selectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jianyue-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1721.jianyue.api.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soft1721.jianyue.api.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1721.jianyue.api.service.impl.ArticleServiceImplTest" />
+      <option name="METHOD_NAME" value="selectAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jianyue-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1721.jianyue.api.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soft1721.jianyue.api.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1721.jianyue.api.service.impl.UserServiceImplTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.signUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jianyue-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1721.jianyue.api.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soft1721.jianyue.api.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1721.jianyue.api.service.impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="signUp" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JianyueApiApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jianyue-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.soft1721.jianyue.api.JianyueApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JianyueApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jianyue-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.soft1721.jianyueapi.JianyueApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickstratApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="quickstrat" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.quickstrat.QuickstratApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.mybatis.SpringBootMybatisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootWebsocketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-websocket" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.boot.websocket.SpringBootWebsocketApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.test.TestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="upload" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.upload.UploadApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.QuickstratApplication" />
+      <item itemvalue="Spring Boot.SpringBootMybatisApplication" />
+      <item itemvalue="Spring Boot.UploadApplication" />
+      <item itemvalue="Spring Boot.TestApplication" />
+      <item itemvalue="Spring Boot.JianyueApiApplication" />
+      <item itemvalue="Spring Boot.JianyueApiApplication (1)" />
+      <item itemvalue="Application.SMSUtil" />
+      <item itemvalue="JUnit.UserServiceImplTest" />
+      <item itemvalue="JUnit.UserServiceImplTest.signUp" />
+      <item itemvalue="JUnit.ArticleServiceImplTest.selectAll" />
+      <item itemvalue="JUnit.ArticleServiceImplTest.getArticleById" />
+      <item itemvalue="Spring Boot.SpringBootWebsocketApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ArticleServiceImplTest.getArticleById" />
+        <item itemvalue="JUnit.ArticleServiceImplTest.selectAll" />
+        <item itemvalue="JUnit.UserServiceImplTest.signUp" />
+        <item itemvalue="JUnit.UserServiceImplTest" />
+        <item itemvalue="Application.SMSUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0417c848-f9f7-4814-b121-1c977a9e022e" name="Default Changelist" comment="" />
+      <created>1552869003771</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552869003771</updated>
+      <workItem from="1552869008141" duration="28454000" />
+      <workItem from="1552907624975" duration="6874000" />
+      <workItem from="1553040785470" duration="48000" />
+      <workItem from="1553126055570" duration="17436000" />
+      <workItem from="1553471942664" duration="20967000" />
+      <workItem from="1553597862810" duration="1897000" />
+      <workItem from="1554082776645" duration="15607000" />
+      <workItem from="1554254814584" duration="18620000" />
+      <workItem from="1554335921854" duration="17615000" />
+      <workItem from="1554440857507" duration="19779000" />
+      <workItem from="1554640544978" duration="598000" />
+      <workItem from="1554681841991" duration="22216000" />
+      <workItem from="1554854408038" duration="6070000" />
+      <workItem from="1554944776277" duration="5548000" />
+      <workItem from="1555138511943" duration="6984000" />
+      <workItem from="1555224889840" duration="4112000" />
+      <workItem from="1555287451335" duration="6136000" />
+      <workItem from="1555320500863" duration="604000" />
+      <workItem from="1555332572467" duration="2400000" />
+      <workItem from="1555460923891" duration="1050000" />
+    </task>
+    <task id="LOCAL-00001" summary="daily update">
+      <created>1552886941721</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552886941721</updated>
+    </task>
+    <task id="LOCAL-00002" summary="daily update">
+      <created>1552909732546</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552909732546</updated>
+    </task>
+    <task id="LOCAL-00003" summary="daily update">
+      <created>1553176579881</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553176579881</updated>
+    </task>
+    <task id="LOCAL-00004" summary="daily update">
+      <created>1554257219669</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554257219669</updated>
+    </task>
+    <task id="LOCAL-00005" summary="daily update">
+      <created>1555332919383</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1555332919383</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UserServiceImplTest_updateUser1 - 2019.04.04 at 10h 38m 02s.xml">
+      <configuration name="UserServiceImplTest.updateUser1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_updateUser - 2019.04.04 at 10h 40m 27s.xml">
+      <configuration name="UserServiceImplTest.updateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_updateUser1 - 2019.04.04 at 10h 42m 36s.xml">
+      <configuration name="UserServiceImplTest.updateUser1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_updateUser1 - 2019.04.04 at 12h 49m 37s.xml">
+      <configuration name="UserServiceImplTest.updateUser1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_updateUser1 - 2019.04.04 at 13h 52m 32s.xml">
+      <configuration name="UserServiceImplTest.updateUser1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest - 2019.04.05 at 13h 13m 34s.xml">
+      <configuration name="UserServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest - 2019.04.05 at 14h 31m 17s.xml">
+      <configuration name="UserServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_signUp - 2019.04.05 at 14h 32m 42s.xml">
+      <configuration name="UserServiceImplTest.signUp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArticleServiceImplTest_selectAll - 2019.04.08 at 13h 13m 34s.xml">
+      <configuration name="ArticleServiceImplTest.selectAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArticleServiceImplTest_getArticleById - 2019.04.08 at 14h 02m 24s.xml">
+      <configuration name="ArticleServiceImplTest.getArticleById" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="203015000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22386059" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2536657" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398827" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.35923752" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.21045576" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="daily update" />
+    <option name="LAST_COMMIT_MESSAGE" value="daily update" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="60" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="12" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/mapper/CourseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/test/java/com/soft1721/jianyue/api/service/impl/UserServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1764">
+          <caret line="63" column="38" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/test/java/com/springboot/mybatis/service/impl/CourseServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="15" selection-start-line="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/vo/ArticleVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/vo/CommentVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/test/java/com/soft1721/jianyue/api/service/impl/ArticleServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/CommentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/util/MsgConst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/util/ResponseResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="37" selection-start-line="37" selection-end-line="37" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/Img.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/CommentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/ImgService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/ImgMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/ImgServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/service/impl/CourseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="896">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/CommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/ImgController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2230">
+          <caret line="103" column="60" selection-start-line="103" selection-start-column="60" selection-end-line="103" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/Follow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/LikeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/LikeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/FollowMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/vo/LikeVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/vo/FollowVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="26" selection-start-line="6" selection-start-column="3" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/Like.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/LikeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/LikeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/ArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/ArticleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/FollowService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/CommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/FollowServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/FollowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="6" selection-start-line="6" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/ArticleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="46" column="64" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2352">
+          <caret line="84" column="21" selection-start-line="81" selection-start-column="8" selection-end-line="84" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="28" selection-start-line="28" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/task/MailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" selection-start-line="2" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/task/MailServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/JianyueApiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/task/TaskService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>quickstrat</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

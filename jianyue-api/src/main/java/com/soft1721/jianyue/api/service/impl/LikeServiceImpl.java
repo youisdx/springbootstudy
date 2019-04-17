@@ -8,13 +8,15 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.List;
+
 @Service
 public class LikeServiceImpl implements LikeService {
     @Resource
     private LikeMapper likeMapper;
+
     @Override
     public Like getLike(int fromlikeUId, int tolikeUId) {
-        return likeMapper.getLike(fromlikeUId,tolikeUId);
+        return likeMapper.getLike(fromlikeUId, tolikeUId);
     }
 
     @Override
@@ -27,8 +29,9 @@ public class LikeServiceImpl implements LikeService {
         likeMapper.insertLike((like));
 
     }
+
     @Override
     public void deletelike(int fromlikeUId, int tolikeUId) {
-        likeMapper.deleteLike(fromlikeUId,tolikeUId);
+        likeMapper.deleteLike(fromlikeUId, tolikeUId);
     }
 }

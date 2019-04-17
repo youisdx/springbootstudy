@@ -18,15 +18,16 @@ import static org.junit.Assert.*;
 public class UserServiceImplTest {
     @Resource
     private UserService userService;
+
     @Test
     public void selectAll() {
-        List<User> courseList=userService.selectAll();
+        List<User> courseList = userService.selectAll();
         courseList.forEach(user -> System.out.println(user));
     }
 
     @Test
     public void getOne() {
-        User user= userService.getOne(2);
+        User user = userService.getOne(2);
         System.out.println(user);
     }
 
@@ -43,7 +44,7 @@ public class UserServiceImplTest {
 
     @Test
     public void update() {
-        User user =userService.getOne(3L);
+        User user = userService.getOne(3L);
         user.setPassword("458");
         user.setAvatar("d.jpg");
         userService.update(user);

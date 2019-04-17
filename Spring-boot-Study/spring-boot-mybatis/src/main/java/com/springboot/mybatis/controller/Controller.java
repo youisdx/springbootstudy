@@ -16,28 +16,28 @@ public class Controller {
     @Resource
     private CourseService courseService;
 
-    @RequestMapping(value = "/courses",method = RequestMethod.GET)
-    public List<CourseVO> selectAll(){
+    @RequestMapping(value = "/courses", method = RequestMethod.GET)
+    public List<CourseVO> selectAll() {
         return courseService.selectAll();
     }
 
-    @RequestMapping(value = "/courses1",method = RequestMethod.GET)
-    public List<CourseVO> selectAll1(){
+    @RequestMapping(value = "/courses1", method = RequestMethod.GET)
+    public List<CourseVO> selectAll1() {
         return courseService.selectAll1();
     }
 
-    @RequestMapping(value = "/course/{id}",method = RequestMethod.GET)
-    public Course getOne(@PathVariable("id") long id){
+    @RequestMapping(value = "/course/{id}", method = RequestMethod.GET)
+    public Course getOne(@PathVariable("id") long id) {
         return courseService.getOne(id);
     }
 
-    @RequestMapping(value = "/course/{id}",method = RequestMethod.DELETE)
-    public void delete(@PathVariable("id")long id){
+    @RequestMapping(value = "/course/{id}", method = RequestMethod.DELETE)
+    public void delete(@PathVariable("id") long id) {
         courseService.delete(id);
     }
 
-    @RequestMapping(value = "/course",method = RequestMethod.POST)
-    public void addCourse(@RequestBody Course course){
+    @RequestMapping(value = "/course", method = RequestMethod.POST)
+    public void addCourse(@RequestBody Course course) {
         course.setCourseCode(RandomUtil.getRandomCode());
         courseService.insert(course);
     }

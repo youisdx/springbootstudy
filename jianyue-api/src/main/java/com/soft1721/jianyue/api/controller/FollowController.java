@@ -30,6 +30,7 @@ public class FollowController {
         followService.deleteFollow(fromUId, toUId);
         return ResponseResult.success();
     }
+
     @GetMapping("/list")
     public ResponseResult getFollowsByUId(@RequestParam("fromUId") int fromUId) {
         List<FollowVO> followVOList = followService.getFollowsByUId(fromUId);

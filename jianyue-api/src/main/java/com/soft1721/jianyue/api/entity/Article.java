@@ -10,7 +10,7 @@ import java.util.Date;
 public class Article {
     private Integer id;
     private Integer uId;
-    private String  title;
+    private String title;
     private String content;
     private Date createTime;
 }

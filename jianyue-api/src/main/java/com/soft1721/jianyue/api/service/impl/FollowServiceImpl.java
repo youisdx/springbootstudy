@@ -13,9 +13,10 @@ import java.util.List;
 public class FollowServiceImpl implements FollowService {
     @Resource
     private FollowMapper followMapper;
+
     @Override
     public Follow getFollow(int fromUId, int toUId) {
-        return followMapper.getFollow(fromUId,toUId);
+        return followMapper.getFollow(fromUId, toUId);
     }
 
     @Override
@@ -31,7 +32,7 @@ public class FollowServiceImpl implements FollowService {
 
     @Override
     public void deleteFollow(int fromUId, int toUId) {
-        followMapper.deleteFollow(fromUId,toUId);
+        followMapper.deleteFollow(fromUId, toUId);
 
     }
 }

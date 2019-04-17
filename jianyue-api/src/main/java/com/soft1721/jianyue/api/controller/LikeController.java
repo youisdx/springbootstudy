@@ -24,6 +24,7 @@ public class LikeController {
         likeService.insertLike(like);
         return ResponseResult.success();
     }
+
     @PostMapping("/cancel")
     public ResponseResult cancelLike(@RequestParam("fromlikeUId") int fromlikeUId, @RequestParam("tolikeUId") int tolikeUId) {
         likeService.deletelike(fromlikeUId, tolikeUId);

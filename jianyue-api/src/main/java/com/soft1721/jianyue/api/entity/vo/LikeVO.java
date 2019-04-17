@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class LikeVO {
-    private  Integer tolikeUId;
+    private Integer tolikeUId;
     private String nickname;
     private String avatar;
 }

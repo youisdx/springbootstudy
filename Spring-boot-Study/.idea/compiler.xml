@@ -9,6 +9,8 @@
         <module name="jianyue-api" />
         <module name="quickstrat" />
         <module name="spring-boot-mybatis" />
+        <module name="spring-boot-websocket" />
+        <module name="spring-boot-websocket (1)" />
         <module name="test" />
         <module name="upload" />
       </profile>
@@ -18,6 +20,8 @@
       <module name="jianyue-api (1)" target="1.8" />
       <module name="quickstrat" target="1.8" />
       <module name="spring-boot-mybatis" target="1.8" />
+      <module name="spring-boot-websocket" target="1.8" />
+      <module name="spring-boot-websocket (1)" target="1.8" />
       <module name="test" target="1.8" />
       <module name="upload" target="1.8" />
     </bytecodeTargetLevel>

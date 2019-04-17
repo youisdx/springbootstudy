@@ -13,21 +13,24 @@ import javax.annotation.Resource;
 import java.util.List;
 
 import static org.junit.Assert.*;
+
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class CourseServiceImplTest {
 
     @Resource
     private CourseService courseService;
+
     @Test
     public void selectAll() {
-        List<CourseVO> courseList=courseService.selectAll();
-                courseList.forEach(course -> System.out.println(course));
+        List<CourseVO> courseList = courseService.selectAll();
+        courseList.forEach(course -> System.out.println(course));
 
     }
+
     @Test
     public void selectAll1() {
-        List<CourseVO> courseList=courseService.selectAll1();
+        List<CourseVO> courseList = courseService.selectAll1();
         courseList.forEach(course -> System.out.println(course));
 
     }
@@ -45,7 +48,7 @@ public class CourseServiceImplTest {
 
     @Test
     public void insert() {
-        Course course= new Course();
+        Course course = new Course();
         course.setCourseName("微信小程序开发");
         course.setUserId(1L);
         course.setCourseClass("软件1721");
@@ -59,7 +62,7 @@ public class CourseServiceImplTest {
     public void update() {
         Course course = courseService.getOne(5L);
         course.setCover("4.jpg");
-        course.setFinished((short)0);
+        course.setFinished((short) 0);
         courseService.update(course);
     }
 }

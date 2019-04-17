@@ -5,7 +5,7 @@ import com.springboot.mybatis.entity.User;
 
 import java.util.List;
 
-public interface UserService  {
+public interface UserService {
     List<User> selectAll();
 
     User getOne(long userId);
@@ -15,7 +15,6 @@ public interface UserService  {
     void update(User user);
 
     void delete(long userId);
-
 
 
 }

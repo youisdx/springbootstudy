@@ -32,14 +32,15 @@ public interface CourseMapper {
     })
     @Select("SELECT a.*,b.username,b.avatar FROM t_course a Left JOIN t_sys_user b ON a.user_id=b.user_id WHERE a.finished = 1  ")
     List<CourseVO> selectAll1();
+
     @Results({
-            @Result(property = "courseId",column = "course_id"),
-            @Result(property = "courseName",column = "course_name"),
-            @Result(property = "userId",column = "user_id"),
-            @Result(property = "courseClass",column = "course_class"),
-            @Result(property = "cover",column = "cover"),
-            @Result(property = "courseCode",column = "course_code"),
-            @Result(property = "finished",column = "finished"),
+            @Result(property = "courseId", column = "course_id"),
+            @Result(property = "courseName", column = "course_name"),
+            @Result(property = "userId", column = "user_id"),
+            @Result(property = "courseClass", column = "course_class"),
+            @Result(property = "cover", column = "cover"),
+            @Result(property = "courseCode", column = "course_code"),
+            @Result(property = "finished", column = "finished"),
     })
 
     @Select("SELECT * FROM t_course  WHERE course_id = #{courseId}")
@@ -52,5 +53,5 @@ public interface CourseMapper {
     void insert(Course course);
 
     @Update("UPDATE t_course SET cover=#{cover},finished=#{finished} WHERE course_id =#{courseId} ")
-    void  update(Course course);
+    void update(Course course);
 }

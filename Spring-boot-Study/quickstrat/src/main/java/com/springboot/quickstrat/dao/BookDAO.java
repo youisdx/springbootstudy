@@ -12,7 +12,7 @@ import java.util.List;
  */
 @Component
 public class BookDAO {
-    public List<Book>getBooks() {
+    public List<Book> getBooks() {
         List<Book> books = new ArrayList<>();
         books.add(new Book(1, "spring boot", 88.8));
         books.add(new Book(2, "spring ", 88.8));

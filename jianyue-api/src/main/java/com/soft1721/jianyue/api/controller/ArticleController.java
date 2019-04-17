@@ -38,7 +38,7 @@ public class ArticleController {
     }
 
     @GetMapping(value = "/{aId}")
-    public ResponseResult getArticleById(@PathVariable("aId") int aId,@RequestParam("userId") int userId) {
+    public ResponseResult getArticleById(@PathVariable("aId") int aId, @RequestParam("userId") int userId) {
         ArticleVO article = articleService.getArticleById(aId);
         int toUId = article.getUId();
         Map<String, Object> map = new HashMap<>();
@@ -53,6 +53,7 @@ public class ArticleController {
         map.put("comments", comments);
         return ResponseResult.success(map);
     }
+
     @PostMapping("/add")
     public ResponseResult postArticle(@RequestParam("uId") int uId,
                                       @RequestParam("title") String title,
@@ -66,6 +67,7 @@ public class ArticleController {
         //新增文章后，将获取到的自增主键返回给客户端，方便图片地址的写入
         return ResponseResult.success(article.getId());
     }
+
     @GetMapping(value = "/user")
     public ResponseResult getrticleByUId(@RequestParam("userId") int userId) {
         List<ArticleVO> articleList = articleService.getArticleByUId(userId);

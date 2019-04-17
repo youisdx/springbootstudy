@@ -19,8 +19,8 @@ public class ArticleServiceImpl implements ArticleService {
 
     @Override
     public List<ArticleVO> selectAll() {
-        List<ArticleVO> articles =articleMapper.selectAll();
-        for(ArticleVO articleVO:articles){
+        List<ArticleVO> articles = articleMapper.selectAll();
+        for (ArticleVO articleVO : articles) {
             articleVO.setImgs(imgMapper.selectImgsByAId(articleVO.getId()));
         }
         return articles;
@@ -39,8 +39,8 @@ public class ArticleServiceImpl implements ArticleService {
 
     @Override
     public List<ArticleVO> getArticleByUId(int uId) {
-        List<ArticleVO> articles=articleMapper.getArticleByUId(uId);
-        for (ArticleVO articleVO:articles){
+        List<ArticleVO> articles = articleMapper.getArticleByUId(uId);
+        for (ArticleVO articleVO : articles) {
             articleVO.setImgs(imgMapper.selectImgsByAId(articleVO.getId()));
         }
         return articles;

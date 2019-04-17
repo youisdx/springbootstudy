@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.List;
+
 @Service
 
 public class CourseServiceImpl implements CourseService {
@@ -19,6 +20,7 @@ public class CourseServiceImpl implements CourseService {
         return courseMapper.selectAll();
 
     }
+
     @Override
     public List<CourseVO> selectAll1() {
         return courseMapper.selectAll1();
@@ -31,7 +33,7 @@ public class CourseServiceImpl implements CourseService {
 
     @Override
     public void delete(long courseId) {
-         courseMapper.delete(courseId);
+        courseMapper.delete(courseId);
     }
 
     @Override

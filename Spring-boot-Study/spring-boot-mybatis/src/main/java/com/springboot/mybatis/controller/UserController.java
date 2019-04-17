@@ -14,24 +14,28 @@ public class UserController {
     @Resource
     private UserService userService;
 
-    @RequestMapping(value = "/users",method = RequestMethod.GET)
+    @RequestMapping(value = "/users", method = RequestMethod.GET)
     public List<User> selectAll() {
-        return  userService.selectAll();
+        return userService.selectAll();
     }
-    @RequestMapping(value = "/users/{id}",method=RequestMethod.GET )
-    public User getOne(@PathVariable("id") long id){
+
+    @RequestMapping(value = "/users/{id}", method = RequestMethod.GET)
+    public User getOne(@PathVariable("id") long id) {
         return userService.getOne(id);
     }
-    @RequestMapping(value = "/user",method = RequestMethod.POST)
-    public void addUser(@RequestBody User user){
+
+    @RequestMapping(value = "/user", method = RequestMethod.POST)
+    public void addUser(@RequestBody User user) {
         userService.insert(user);
     }
-    @RequestMapping(value = "/user",method = RequestMethod.PUT)
-    public void updateUser(@RequestBody User user){
+
+    @RequestMapping(value = "/user", method = RequestMethod.PUT)
+    public void updateUser(@RequestBody User user) {
         userService.update(user);
     }
-    @RequestMapping(value = "/user/{id}",method = RequestMethod.DELETE)
-    public  void delete(@PathVariable("id") long id){
+
+    @RequestMapping(value = "/user/{id}", method = RequestMethod.DELETE)
+    public void delete(@PathVariable("id") long id) {
         userService.delete(id);
     }
 }

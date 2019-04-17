@@ -43,8 +43,9 @@ public class UserController {
             }
         }
     }
+
     @PostMapping("/avatar")
-    public String ossUpload(@RequestParam("file") MultipartFile sourceFile,@RequestParam("userId") int userId) {
+    public String ossUpload(@RequestParam("file") MultipartFile sourceFile, @RequestParam("userId") int userId) {
         System.out.println(userId);
         String endpoint = "http://oss-cn-hangzhou.aliyuncs.com";
         String accessKeyId = "LTAIUcSwwFOludC7";
@@ -82,31 +83,35 @@ public class UserController {
         //将头像链接返回给客户端，以便实时预览
         return url.toString();
     }
-    @RequestMapping(value = "/{id}",method = RequestMethod.GET)
-    public ResponseResult getUserId(@PathVariable("id") int id){
-        User user=userService.getUserById(id);
+
+    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
+    public ResponseResult getUserId(@PathVariable("id") int id) {
+        User user = userService.getUserById(id);
         return ResponseResult.success(user);
     }
+
     @PostMapping("/nickname")
-    public ResponseResult updateUser1(@RequestBody String renickname,int id){
-        User user=userService.getUserById(id);
+    public ResponseResult updateUser1(@RequestBody String renickname, int id) {
+        User user = userService.getUserById(id);
         user.setNickname(renickname);
         userService.updateUser1(user);
         return ResponseResult.success(user);
     }
+
     @PostMapping(value = "/verify")
     public ResponseResult getVerifyCode(@RequestParam("mobile") String mobile) {
         User user = userService.getUserByMobile(mobile);
         if (user != null) {
             return ResponseResult.error(StatusConst.MOBILE_EXIST, MsgConst.MOBILE_EXIST);
         } else {
-          String verifyCode = SMSUtil.send(mobile);
+            String verifyCode = SMSUtil.send(mobile);
 //           String verifyCode = StringUtil.getVerifyCode();
             System.out.println(verifyCode);
             redisService.set(mobile, verifyCode);
             return ResponseResult.success();
         }
     }
+
     @PostMapping(value = "/check")
     public ResponseResult checkVerifyCode(@RequestParam("mobile") String mobile, @RequestParam("verifyCode") String verifyCode) {
         String code = redisService.get(mobile).toString();

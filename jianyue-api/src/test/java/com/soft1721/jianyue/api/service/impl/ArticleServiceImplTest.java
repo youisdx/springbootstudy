@@ -20,9 +20,10 @@ public class ArticleServiceImplTest {
 
     @Resource
     private ArticleMapper articleMapper;
+
     @Test
     public void selectAll() {
-        List<ArticleVO> list =new ArrayList<>();
+        List<ArticleVO> list = new ArrayList<>();
         list = articleMapper.selectAll();
         System.out.println(list);
 
@@ -31,7 +32,7 @@ public class ArticleServiceImplTest {
     @Test
     public void getArticleById() {
         ArticleVO articleVO = articleMapper.getArticleById(1);
-        List<Img> imgList= new ArrayList<>();
+        List<Img> imgList = new ArrayList<>();
         imgList = articleMapper.selectImgByaId(1);
         articleVO.setImgs(imgList);
         System.out.println(articleVO);

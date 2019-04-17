@@ -6,6 +6,7 @@ import com.soft1721.jianyue.api.entity.vo.ArticleVO;
 import org.apache.ibatis.annotations.*;
 
 import java.util.List;
+
 public interface ArticleMapper {
     @Results({
             @Result(property = "id", column = "id"),

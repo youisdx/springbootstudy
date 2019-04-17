@@ -20,6 +20,7 @@ import java.util.UUID;
 /**
  * 上传文件控制器
  * 直接上传到服务器
+ *
  * @author Wuyou
  * 2019.3.25
  */
@@ -30,48 +31,49 @@ public class UploadController {
 
     //遇到http://localhost:8080,则跳转到upload.html页面
     SimpleDateFormat zpf = new SimpleDateFormat("yyyy-MM-dd ");
+
     @GetMapping("/")
-    public String index(){
-        return  "upload";
+    public String index() {
+        return "upload";
     }
 
     @PostMapping("/upload")
-    public String fileUpload(@RequestParam("file")MultipartFile srcFile, RedirectAttributes redirectAttributes){
+    public String fileUpload(@RequestParam("file") MultipartFile srcFile, RedirectAttributes redirectAttributes) {
         //前端没有选择文件，srcFile为空
-        if (srcFile.isEmpty()){
-            redirectAttributes.addFlashAttribute("message","请选择一个文件");
+        if (srcFile.isEmpty()) {
+            redirectAttributes.addFlashAttribute("message", "请选择一个文件");
             return "redirect:upload_status";
         }
         //选择了文件，开始进行上传操作
         try {
             //构建上传目标路径,
-            File destFile=new File
+            File destFile = new File
                     (ResourceUtils.getURL("classpath:").getPath());
-            if(!destFile.exists()){
-                destFile=new File("");
+            if (!destFile.exists()) {
+                destFile = new File("");
             }
             //出处目标文件的绝对路径
-            System.out.println("file path"+destFile.getAbsolutePath());
-            File upload=new File(destFile.getAbsolutePath(),zpf.format(new Date())+"/");
+            System.out.println("file path" + destFile.getAbsolutePath());
+            File upload = new File(destFile.getAbsolutePath(), zpf.format(new Date()) + "/");
 
-            String fileName= srcFile.getOriginalFilename();
+            String fileName = srcFile.getOriginalFilename();
             String suffixName = fileName.substring(fileName.lastIndexOf("."));
-            fileName= UUID.randomUUID() +suffixName;
+            fileName = UUID.randomUUID() + suffixName;
             //若目标文件夹不存在，则创建一个
-            if(!upload.exists()){
+            if (!upload.exists()) {
                 upload.mkdir();
             }
-            System.out.println("完整的上传路径:"+upload.getAbsolutePath()+"/"+fileName);
+            System.out.println("完整的上传路径:" + upload.getAbsolutePath() + "/" + fileName);
 
             //根据srcFile的大小，准备一个字节数组
             byte[] bytes = srcFile.getBytes();
             //拼接上传路径
-            Path path = Paths.get(upload.getAbsolutePath()+"/"+fileName);
+            Path path = Paths.get(upload.getAbsolutePath() + "/" + fileName);
             //最重要的一步，将源文件写入目标地址
-            Files.write(path , bytes);
+            Files.write(path, bytes);
             //将文件上传成功的信息写入message
-            redirectAttributes.addFlashAttribute("message","文件上传成功！"+fileName);
-        }catch (IOException e){
+            redirectAttributes.addFlashAttribute("message", "文件上传成功！" + fileName);
+        } catch (IOException e) {
             e.printStackTrace();
         }
         return "redirect:upload_status";
@@ -80,7 +82,7 @@ public class UploadController {
 
     //匹配upload_status页面
     @GetMapping("/upload_status")
-    public String uploadStatusPage(){
+    public String uploadStatusPage() {
         return "upload_status";
     }
 }
